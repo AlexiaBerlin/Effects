@@ -1,6 +1,6 @@
 # Effects / Animation
 Particles JavaScript
-- HTML canvas;
+- HTML Canvas 2D;
 - Scan image;
 - Pixels Manipulation: color and coordinates.
 
