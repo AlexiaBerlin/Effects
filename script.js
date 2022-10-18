@@ -81,8 +81,8 @@ window.addEventListener("load", function () {
           const green = pixels[index + 1];
           const blue = pixels[index + 2];
           const alpha = pixels[index + 3];
-          const color = "rgb(" + red + "," + green + "," + blue + "," + ")";
-
+          const color =
+            "rgb(" + red + "," + green + "," + blue + ", " + alpha + ")";
           if (alpha > 0) {
             this.particlesArray.push(new Particle(this, x, y, color));
           }
